@@ -73,7 +73,7 @@ above cmd will create a seperate **VPC, subnets, security groups, autoscaling gr
 ### Update and Validating a cluster
 **Update the cluster nodes**
 ```
-kops update cluster --name k8straining.k8s.local --yes
+kops update cluster --name k8straining.k8s.local --yes --admin
 ```
 ![image](https://github.com/praveensivakumar1998/Creating-Kubernetes-cluster-using-kops/assets/108512714/8255a7d8-dc22-4d59-a684-f3a68ef2d37d)
 
